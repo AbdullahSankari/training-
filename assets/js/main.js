@@ -180,7 +180,7 @@
 
 })(jQuery);
 function getData(){
-  fetch('http://localhost:3000/abdallah')
+  fetch('https://abdallah-sankari.herokuapp.com/abdallah')
 .then(response => response.json())
 .then(json => {
     as=document.getElementById("as")
